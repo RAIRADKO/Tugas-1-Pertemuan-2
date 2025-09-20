@@ -3,11 +3,8 @@ package com.example.ifunsoed
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.ifunsoed.databinding.ActivityHalaman2Binding
 
 class Halaman2Activity : AppCompatActivity() {
