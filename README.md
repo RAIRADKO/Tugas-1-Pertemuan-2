@@ -8,6 +8,5 @@ Pertemuan 2 tugas 1 <br>
 Pertemuan 3 tugas 2 <br>
 <img src="https://github.com/user-attachments/assets/29c91ea1-aa17-4d37-903c-93a2e0b2b4fb" width="300">
 <img src="https://github.com/user-attachments/assets/58a64456-8732-4a09-9137-00ee9140816f" width="300">
-<img width="800" height="1778" alt="image" src="https://github.com/user-attachments/assets/c670f3f3-25be-4b13-a375-0b80cb9b7830" width="300"/>
-
+<img src="https://github.com/user-attachments/assets/a25d7c5f-e324-4e26-ad3c-4ed38b961e4a" width="300">
 
