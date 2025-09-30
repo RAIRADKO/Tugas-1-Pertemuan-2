@@ -10,5 +10,5 @@ Pertemuan 3 tugas 2 <br>
 <img src="https://github.com/user-attachments/assets/58a64456-8732-4a09-9137-00ee9140816f" width="300">
 <img src="https://github.com/user-attachments/assets/a25d7c5f-e324-4e26-ad3c-4ed38b961e4a" width="300"><br>
 Pertemuan 3 tugas 2 <br>
-https://github.com/user-attachments/assets/a0459635-fb1e-4053-96f6-113a9f233b5a
+<img src="https://github.com/user-attachments/assets/92c39c09-ce33-4a16-840c-6c222175a02d" width="300">
 
