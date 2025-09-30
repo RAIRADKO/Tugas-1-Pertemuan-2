@@ -1,19 +1,15 @@
 package com.example.ifunsoed
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.net.toUri
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.ifunsoed.databinding.ActivityHalaman2Binding
 
 class Halaman2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityHalaman2Binding
     private val latitude = "-7.429427"
     private val longitude = "109.338082"
-    private val gMapsUrl = "https://maps.google.com/?q="
     private val packageMaps = "com.google.android.apps.maps"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,27 +44,27 @@ class Halaman2Activity : AppCompatActivity() {
 
     private fun initListener() {
         binding.layoutLocation.root.setOnClickListener {
-            val gMapsIntentUri = "$gMapsUrl$latitude,$longitude".toUri()
+            val gMapsIntentUri = Uri.parse("geo:$latitude,$longitude")
             val mapIntent = Intent(Intent.ACTION_VIEW, gMapsIntentUri)
             startActivity(mapIntent.setPackage(packageMaps))
         }
 
         binding.layoutIg.root.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = getString(R.string.ig_himpunan).toUri()
+            intent.data = Uri.parse(getString(R.string.ig_himpunan))
             startActivity(intent)
         }
 
         binding.layoutEmail.root.setOnClickListener {
             val intent = Intent(Intent.ACTION_SENDTO).apply {
-                data = "mailto:${getString(R.string.email)}".toUri()
+                data = Uri.parse("mailto:${getString(R.string.email)}")
             }
             startActivity(intent)
         }
 
         binding.layoutPhone.root.setOnClickListener {
             val intent = Intent(Intent.ACTION_DIAL).apply {
-                data = "tel:${getString(R.string.telepon)}".toUri()
+                data = Uri.parse("tel:${getString(R.string.telepon)}")
             }
             startActivity(intent)
         }
