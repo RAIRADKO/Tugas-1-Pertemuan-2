@@ -1,6 +1,6 @@
-package com.unsoed.informatikamobile.data.network
+package com.example.ifunsoed.data.network
 
-import com.unsoed.informatikamobile.data.model.SearchResponse
+import com.example.ifunsoed.data.model.SearchResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

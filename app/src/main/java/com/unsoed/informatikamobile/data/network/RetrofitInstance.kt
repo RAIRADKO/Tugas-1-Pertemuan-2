@@ -1,6 +1,6 @@
-package com.unsoed.informatikamobile.data.network
+package com.example.ifunsoed.data.network
 
-import com.unsoed.informatikamobile.utils.Constants
+import com.example.ifunsoed.utils.Constants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

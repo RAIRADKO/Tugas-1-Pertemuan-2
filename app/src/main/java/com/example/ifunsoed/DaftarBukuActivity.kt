@@ -8,8 +8,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ifunsoed.databinding.ActivityDaftarBukuBinding
-import com.unsoed.informatikamobile.ui.adapter.BookAdapter
-import com.unsoed.informatikamobile.viewmodel.MainViewModel
+import com.example.ifunsoed.ui.adapter.BookAdapter
+import com.example.ifunsoed.viewmodel.MainViewModel
 
 class DaftarBukuActivity : AppCompatActivity() {
 

@@ -1,13 +1,13 @@
-package com.unsoed.informatikamobile.viewmodel
+package com.example.ifunsoed.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.unsoed.informatikamobile.data.model.BookDoc
-import com.unsoed.informatikamobile.data.model.SearchResponse
-import com.unsoed.informatikamobile.data.network.RetrofitInstance
+import com.example.ifunsoed.data.model.BookDoc
+import com.example.ifunsoed.data.model.SearchResponse
+import com.example.ifunsoed.data.network.RetrofitInstance
 import kotlinx.coroutines.launch
 
 class MainViewModel : ViewModel() {

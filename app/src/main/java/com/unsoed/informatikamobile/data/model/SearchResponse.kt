@@ -1,4 +1,4 @@
-package com.unsoed.informatikamobile.data.model
+package com.example.ifunsoed.data.model
 
 import com.google.gson.annotations.SerializedName
 

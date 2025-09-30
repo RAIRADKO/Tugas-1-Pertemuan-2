@@ -1,4 +1,4 @@
-package com.unsoed.informatikamobile
+package com.example.ifunsoed
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,13 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.unsoed.informatikamobile.databinding.ActivityHalaman2Binding
+import com.example.ifunsoed.databinding.ActivityHalaman2Binding
 
 class Halaman2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityHalaman2Binding
     private val latitude = "-7.429427"
     private val longitude = "109.338082"
-    private val gMapsUrl = "http://maps.google.com/maps?q=loc:"
+    private val gMapsUrl = "https://maps.google.com/?q="
     private val packageMaps = "com.google.android.apps.maps"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

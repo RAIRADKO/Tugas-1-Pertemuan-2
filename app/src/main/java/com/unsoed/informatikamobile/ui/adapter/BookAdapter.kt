@@ -1,10 +1,10 @@
-package com.unsoed.informatikamobile.ui.adapter
+package com.example.ifunsoed.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ifunsoed.databinding.ListBukuBinding
-import com.unsoed.informatikamobile.data.model.BookDoc
+import com.example.ifunsoed.data.model.BookDoc
 
 class BookAdapter(private var books: List<BookDoc>) :
     RecyclerView.Adapter<BookAdapter.BookViewHolder>() {
