@@ -3,8 +3,8 @@ package com.unsoed.informatikamobile.data.model
 import com.google.gson.annotations.SerializedName
 
 data class SearchResponse(
-    @SerializedName("title")
-    val docs:List<BookDoc>
+    @SerializedName("docs")
+    val docs: List<BookDoc>
 )
 data class BookDoc(
     @SerializedName("title")
