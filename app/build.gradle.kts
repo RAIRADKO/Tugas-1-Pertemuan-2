@@ -54,4 +54,5 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.activity.ktx)
+    implementation("com.github.bumptech.glide:glide:5.0.5")
 }
